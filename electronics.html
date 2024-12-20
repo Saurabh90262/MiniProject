@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Electronics</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #232f3e;
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 16px;
+      }
+
+      header nav a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .details {
+        text-align: left;
+      }
+
+      .section-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+
+      .product-card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        background-color: #fff;
+      }
+
+      .product-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .product-card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+      }
+
+      .product-card p {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .product-card .price {
+        font-size: 16px;
+        color: #b12704;
+        margin: 10px 0;
+      }
+
+      .product-card button {
+        background-color: #ffa41c;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .product-card button:hover {
+        background-color: #cc8500;
+      }
+
+      footer {
+        background-color: #232f3e;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Amazon Electronics</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2 class="section-title">Top Picks in Electronics</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="https://www.phonemart.ng/wp-content/uploads/2024/06/s24u-gr-4.jpeg"
+            alt="Product 1"
+          />
+          <h3>Samsung Galaxy S24 ultra</h3>
+          <p>High-performance smartphone with amazing features.</p>
+          <p class="price">Rs 23990</p>
+          <button>Add to Cart</button>
+          <button>Buy Now</button>
+          <p class="details">
+            Brand : Samsung <br />Operating System : Android 14<br />
+            RAM : 12 GB<br />
+            CPU : Snapdragon CPU Speed 3.39 GHz
+          </p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://www.reliancedigital.in/medias/OnePlus-Nord-Buds-3-Pro-494443281-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0ODkyMXxpbWFnZS9qcGVnfGltYWdlcy9oMzYvaDdkLzEwMTgyNTI0OTkzNTY2LmpwZ3wzZTk5MDM4MWY4MDcxNWQxNWVlMjg5MGZmOWI5ZGE2MTIzMzU3ZDYwMzgxZDA1ZWIzZGUwNjgyMzc3MzFjNzQw"
+            alt="Product 2"
+          />
+          <h3>One Plus Buds 3r</h3>
+          <p>Noise-cancelling headphones for ultimate sound quality.</p>
+          <p class="price">Rs 2199</p>
+          <button>Add to Cart</button>
+          <button>Buy Now</button>
+          <p class="details">
+            Brand : One Plus <br />Mics : Quad Mic Technology<br />
+            Drivers : 13mm Boom x Drivers<br />
+            Latency : 15ms
+          </p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://photos-eu.bazaarvoice.com/photo/2/cGhvdG86bGdlbGVjdHJvbmljcy1hdQ/4628aede-140a-5a77-979d-706f14572d72"
+            alt="Product 3"
+          />
+          <h3>L.G QLED 4K Smart TV</h3>
+          <p>
+            Ultra HD Smart TV with stunning visuals, Grab This festive Season.
+          </p>
+          <p class="price">Rs 125000</p>
+          <button>Add to Cart</button>
+          <button>Buy Now</button>
+          <p class="details">
+            Brand : Life's Goods<br />Operating System : Snapdragon 888 13th
+            gen<br />
+            Display size : 105"<br />
+            Display Quality : OLED Display
+          </p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://soundmachine.com.mt/wp-content/uploads/2024/07/Samsung-Galaxy-Watch-FE-AMOLED-40mm-Wi-Fi-GPS-Satellite-Black.jpg"
+          />
+          <h3>Galaxy Watch S3</h3>
+          <p>
+            Track your health and stay connected with our best in Segment Watch.
+          </p>
+          <p class="price">Rs 5999</p>
+          <button>Add to Cart</button>
+          <button>Buy Now</button>
+          <p class="details">
+            Brand : Samsung <br />Operating System : Snapdragon 888 13th gen<br />
+            Display size : 1.5"<br />
+            Display Quality : OLED Display
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; 2024 Amazon Electronics. All rights reserved.</footer>
+  </body>
+</html>

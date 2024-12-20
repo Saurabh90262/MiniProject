@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.logo span {
+    color: #f90;
+}
+
+.sign-in-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #111;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7ca00;
+    color: #111;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0b800;
+}
+
+p {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #555;
+    text-align: left;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.help-link {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.work-link p {
+    margin-bottom: 5px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+.create-account {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.create-account p {
+    font-size: 12px;
+    color: #555;
+}
+
+.create-button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #e7e9ec;
+    color: #111;
+    margin-top: 10px;
+}
+
+.create-button:hover {
+    background-color: #d7d9dc;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #0066c0;
+}
+
+footer p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .sign-in-box, .create-account {
+        padding: 15px;
+    }
+
+    button, .create-button {
+        font-size: 14px;
+    }
+
+    footer a, footer p {
+        font-size: 10px;
+    }
+}
